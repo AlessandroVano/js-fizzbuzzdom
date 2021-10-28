@@ -16,7 +16,7 @@ h1 {
     margin: 50px auto;
 }
 
-.squares .square {
+ .square {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +25,16 @@ h1 {
     margin: 1rem;
     background: cornflowerblue;
     color: black;
+}
+
+.square-fizz {
+    background: chartreuse;
+}
+
+.square-buzz {
+    background: chocolate;
+}
+
+.square-fizzbuzz {
+    background: darkmagenta;
 }
